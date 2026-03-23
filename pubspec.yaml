@@ -31,6 +31,25 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # 1. State Management & Routing
+  flutter_riverpod: ^2.4.9  
+  go_router: ^13.0.0        
+
+  # 2. Networking & API
+  dio: ^5.4.0               # Xử lý HTTP Request, Upload ảnh lên S3 
+  flutter_dotenv: ^5.1.0    # Bảo mật API Key (Google Maps, Vision)
+
+  # 3. Xử lý ảnh & Camera
+  camera: ^0.10.5
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.1 # Load ảnh từ S3 , lưu ảnh cache để load nhanh hơn
+
+  # 4. Bản đồ & Định vị
+  google_maps_flutter: ^2.5.3
+  geolocator: ^10.1.0       # Lấy tọa độ GPS 
+
+    
+  shared_preferences: ^2.2.2
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
